@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Japanese Music</title>
+  </head>
+
+  <body>
+    <h1>Japanese music suggestions</h1>
+      <!-- Goal of the website -->
+      <h2>About</h2>
+      <p>The goal of this website is to provide Japanese music reccomendations based on the kanji (漢字) that you know. This will be acheived in the following manner...</p>
+      <p></p>
+
+      <!-- Steps to achieve said goal -->
+      <h3>1. Record known kanji</h3>
+      <p>First I need to get a list of known kanji from the user. There are several different (and progressively harder) ways to achieve this.</p>
+      <p>a. Have them enter in known kanji</p>
+      <p>b. Read from a file</p>
+      <p>c. Use WaniKani API</p>
+
+      <h3>2. Keep a list of songs <em>with all of the lyrics</em></h3>
+      <p>I'll need to have a massive database that keeps tracks of songs as well as the kanji used inside of them. To keep it simple I will only keep track of the <strong>jouyou kanji</strong> (常用漢字) which means that I need to keep track of 2136 characters. I will also impliment this one step at a time such as only starting off with one song and 1 kanji character (ex: person --> 人)</p>
+
+      <h3>3. Reccomend songs based on number of known kanji entered</h3>
+      <p>For this final step I will compare the array of known kanji from the user with my massive library of songs and return songs that have the highest matched percentage of known kanji. Below I've wrote out a small example of what I would like to achieve. </p>
+
+      <!-- Example of how the final product will work -->
+      <h4>EXAMPLE</h4>
+      <p>Known Kanji: [言全]</p>
+      <p>Song: Yoru Ni Kakeru (夜に駆ける)</p>
+      <p>Lyrics: 「さよなら」だけだった その一<strong>言</strong>で<strong>全</strong>てが分かった</p>
+      <p>Percent matched: 66.7%</p>
+
+
+
+
+  </body>
+</html>
