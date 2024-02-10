@@ -1,1 +1,14 @@
 /* styles.css */
+
+h1 {
+  background-color: rgb(156, 8, 8);
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  font-size: 28px;
+}
